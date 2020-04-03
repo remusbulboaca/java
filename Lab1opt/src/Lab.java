@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Stack;
 
@@ -10,6 +12,7 @@ public class Lab {
 
     public void dfs(int adjacency_matrix[][])
     {
+        
         int numar_noduri = adjacency_matrix[0].length;
         int vizitat[] = new int[numar_noduri];
         int cc = 0;
