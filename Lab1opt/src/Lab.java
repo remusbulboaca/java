@@ -112,7 +112,7 @@ public class Lab {
             System.out.println();
         }
 
-        /*calculam si afisam componentele conexe*/
+        /*calculam componentele conexe*/
         Lab lab = new Lab();
         lab.dfs(matrix);
 
