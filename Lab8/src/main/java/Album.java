@@ -7,6 +7,12 @@ public class Album {
     public Album(){
     }
 
+    public Album(String name, Integer artist_id, Integer releaseYear) {
+        this.name = name;
+        this.artist_id = artist_id;
+        this.releaseYear = releaseYear;
+    }
+
     public Integer getArtist_id() {
         return artist_id;
     }
